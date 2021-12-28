@@ -1,12 +1,10 @@
 package gui.windowParts;
 
-import gui.windowParts.panelModels.Panel;
+import javax.swing.*;
 
-public class GamePanel extends Panel {
+public class GamePanel extends JPanel {
 
-    public GamePanel(int panel_width, int panel_height) {
-
-        super(panel_width, panel_height);
+    public GamePanel() {
 
     }
 }

@@ -32,6 +32,7 @@ public class MainWindow extends JFrame {
         add(playerPanel, BorderLayout.WEST);
         add(enemyPanel, BorderLayout.EAST);
         add(logPanel, BorderLayout.SOUTH);
+
         add(new StartMenuPanel(), BorderLayout.CENTER);
 
         setVisible(true);

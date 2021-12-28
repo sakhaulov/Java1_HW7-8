@@ -12,7 +12,6 @@ public class EntityInfoPart extends PanelPart {
     protected JLabel level_label;
     protected JLabel hp_label;
     protected JLabel attack_label;
-    protected JLabel defence_label;
 
     protected String name_value = "NAME";
     protected int level_value = 100;

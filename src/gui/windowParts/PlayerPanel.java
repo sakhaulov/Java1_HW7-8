@@ -4,8 +4,6 @@ import gui.windowParts.panelModels.Panel;
 import gui.windowParts.panelParts.EntityInfoPart;
 import gui.windowParts.panelParts.GameInfoPart;
 import gui.windowParts.panelParts.PlayerControlPart;
-
-import javax.swing.*;
 import java.awt.*;
 
 
