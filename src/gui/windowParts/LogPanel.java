@@ -22,7 +22,7 @@ public class LogPanel extends Panel {
         scroll = new JScrollPane(log);
         scroll.setPreferredSize(new Dimension(1250, 190));
 
-        this.add(scroll);
+        add(scroll);
 
     }
 }

@@ -20,12 +20,11 @@ public class PlayerPanel extends Panel {
         setLayout(new GridLayout(3, 1));
 
         game_info = new GameInfoPart();
-        add(game_info);
-
         player_info = new EntityInfoPart();
-        add(player_info);
-
         player_control = new PlayerControlPart();
+
+        add(game_info);
+        add(player_info);
         add(player_control);
 
     }
