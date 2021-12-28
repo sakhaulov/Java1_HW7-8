@@ -21,14 +21,14 @@ public class PlayerPanel extends Panel {
 
         setLayout(new GridLayout(3, 1));
 
-        this.game_info = new GameInfoPart();
-        this.add(game_info);
+        game_info = new GameInfoPart();
+        add(game_info);
 
-        this.player_info = new EntityInfoPart();
-        this.add(player_info);
+        player_info = new EntityInfoPart();
+        add(player_info);
 
-        this.player_control = new PlayerControlPart();
-        this.add(player_control);
+        player_control = new PlayerControlPart();
+        add(player_control);
 
     }
 }
